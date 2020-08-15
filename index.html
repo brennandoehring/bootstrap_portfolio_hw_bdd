@@ -2,7 +2,6 @@
 <html lang="en-us">
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brennan Doehring - Home</title>
@@ -14,43 +13,44 @@
 </head>
 
 <body>
-    <!--Navigation bar at the top of the screen with links to contact and portfolio-->
+    <!--Navigation bar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-light>
         <a class="navbar-brand" href="#">Brennan Doehring</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
+        <nav class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <nav class="navbar-nav">
                 <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
                 <a class="nav-link" href="portfolio.html">Portfolio</a>
                 <a class="nav-link" href="contact.html">Contact</a>
-            </div>
-        </div>
+            </nav>
+        </nav>
     </nav>
 
     <!--Container fluid keeps content at full width regardless of screen size-->
-        <div class="container-fluid">
-            <header class="card border-0 shadow my-5">
-                <div class="card-body p-5">
-                <h1 class="font-weight-light">Aspiring Web and Software Developer</h1>
-                <p class="lead">"The most important property of a program is whether it accomplishes the intention of
-                    its user."</p>
-                <div style="height: 10px"></div>
-                <p class="lead mb-0">- C.A.R. Hoare</p>
-                </div>
-            </header>
-        </div>
+    <!--Page header-->
+    <header class="container-fluid">
+        <section class="card border-0 shadow my-5">
+            <section class="card-body p-5">
+            <h1 class="font-weight-light">Aspiring Web and Software Developer</h1>
+            <p class="lead">"The most important property of a program is whether it accomplishes the intention of
+                its user."</p>
+            <p class="lead mb-0">- C.A.R. Hoare</p>
+            </section>
+        </section>
+    </header>
 
-        <!--Adding another container-->
-        <div class="container-fluid">
-            <section class="card border-0 shadow my-5">
-                <div class="card-body p-5">
-                <h1 class="font-weight-light" >About Me</h1>
+    <!--Adding another container-->
+    <!--The main article of the page-->
+    <div class="container-fluid">
+        <section class="card border-0 shadow my-5">
+            <section class="card-body p-5">
+                <h1 class="font-weight-light" font-size:8vw>About Me</h1>
                 <img src="https://scontent-lga3-2.xx.fbcdn.net/v/t1.0-9/100903158_238150300966042_4534234293358034944_o.jpg?
                     _nc_cat=102&_nc_sid=09cbfe&_nc_ohc=-aAVH82846cAX_1Q61x&_nc_ht=scontent-lga3-2.xx&oh=f03de220adbd7ce0e53b132bdb92964d&oe=5F5AF2AE"
                     alt="Brennan" class="bioImage">
-                <p class="lead">Hello! My name is Brennan Doehring, I live in Groton, Connecticut.
+                <p class="lead" font-size:8vw>Hello! My name is Brennan Doehring, I live in Groton, Connecticut.
                     However, I was born in Effingham, Illinois and have lived in Georgia and the beautiful state
                     of Hawaii. I was a "navy brat" and grew up moving around a lot. I'm currently enrolled in 
                     UCONN's Coding Bootcamp and I've just begun learning to write HTML websites using CSS and Bootstrap
@@ -58,14 +58,8 @@
                     college courses and self-teaching. I love a good challenge, and love to overcome them even more -
                     and that is why I feel web and software development is my calling.
                 </p>
-                <div style="height: 10px"></div>
-                    
-                </div>
-                </div>
-                </div>
-            </div>
             </section>
-        </div>
-        
+        </section>
+    </div> 
 </body>
 </html>
