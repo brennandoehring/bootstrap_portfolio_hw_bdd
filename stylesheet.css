@@ -6,11 +6,24 @@ body {
     background-size: cover;
     -o-background-size: cover;
 }
+
+img {
+  padding: 10px;
+}
+
+@viewport {
+  width: device-width;
+  zoom: 1.0;
+}
+
 /*Controls spacing on grid in the portfolio page*/
-.portGridSpc {
-  max-width: 100%;
-  bottom: 40px;
-  margin-bottom: 40px; 
+.portCtrl {
+  padding: 10px;
+}
+
+/*Adds padding to portfolio image*/
+col-sm-4 {
+  padding-bottom: 15px;
 }
 
 
