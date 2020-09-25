@@ -1,10 +1,11 @@
 /*Body is used across all 3 pages*/
 body {
-    background: url('https://www.pixel4k.com/wp-content/uploads/2020/01/mountain-reflection-lake-of-water_1579381530.jpg') no-repeat center center fixed;
+    background: url('https://images.unsplash.com/photo-1579547621113-e4bb2a19bdd6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    font-family: 'Abel', sans-serif;
 }
 
 img {
@@ -14,6 +15,12 @@ img {
 @viewport {
   width: device-width;
   zoom: 1.0;
+}
+
+.nav-wrapper {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(18,4,101,1) 0%, rgba(166,0,255,1) 58%,
+   rgba(10,10,194,1) 100%);
 }
 
 /*Controls spacing on grid in the portfolio page*/
