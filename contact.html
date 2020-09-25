@@ -7,26 +7,19 @@
     <title>Brennan Doehring - Contact</title>
 
     <!--Stylesheet links-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
-    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="stylesheet.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/stylesheet.css">
 </head>
 
 <body>
     <!--Navigation bar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-light>
-        <a class="navbar-brand" href="#">Brennan Doehring</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <nav class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <nav class="navbar-nav">
-                <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-                <a class="nav-link" href="contact.html">Contact</a>
-            </nav>
-          </nav>
+    <nav class="nav-wrapper">
+        <a href="#" class="brand-logo">Brennan Doehring</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
     </nav>
 
     <!--Container fluid keeps content at full width regardless of screen size-->
@@ -42,43 +35,35 @@
           </section>
       </header>
 
-    <div class="container-fluid">
-        <section class="card border-0 shadow my-5">
-            <section class="card-body p-5">
-                <p class="lead"></p>
-                <div style="height: auto"></div>
-                <div style="text-align:center">
-                    <h2>Contact Me</h2>
-                </div>
-                <div class="row">
-                    <div class="column">
-                        <img src="https://cdn.pixabay.com/photo/2018/03/22/02/37/email-3249062_960_720.png" alt="Mail" style="width:75%">
+   
+    <row class = "aboutMe">
+        <div class="container-fluid">
+            <section class="card border-0 shadow my-5">
+                <section class="card-body p-5">
+                    <p class="lead"></p>
+                    <div style="height: auto"></div>
+                    <div style="text-align:center">
+                        <h2>Contact Me</h2>
                     </div>
-                    <div class="column">
-                        <form action="/action_page.php">
-                            <label for="fname">Name</label>
-                            <input type="text" id="fname" name="name" placeholder="Your name..">
-                            <label for="lname">Email</label>
-                            <input type="text" id="lname" name="email" placeholder="Your email..">
-                            <label for="subject">Subject</label>
-                            <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-                            <input type="submit" value="Submit">
-                        </form>
-                    </div>
-                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <img src="https://cdn.pixabay.com/photo/2018/03/22/02/37/email-3249062_960_720.png" alt="Mail" style="width:75%">
+                        </div>
+                        <div class="column">
+                            <form action="/action_page.php">
+                                <label for="fname">Name</label>
+                                <input type="text" id="fname" name="name" placeholder="Your name..">
+                                <label for="lname">Email</label>
+                                <input type="text" id="lname" name="email" placeholder="Your email..">
+                                <label for="subject">Subject</label>
+                                <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                                <input type="submit" value="Submit">
+                            </form>
+                        </div>
+                        </div>
+                </section>
             </section>
-         </section>
-    </div>
+        </div>
+    </row>
 </body>
 </html>
-
-<!--<aside class="businessCard">
-  <img src="https://davismarketingcompany.com/wp-content/uploads/2016/01/avatar_placeholder_small.png" alt="Placeholder" style="width:100%">
-  <h1>Brennan Doehring</h1>
-  <p class="title">Web & Software Developer</p>
-  <p>UCONN Coding Bootcamp</p>
-  <a href="https://twitter.com/nannerbdale" target="_blank"><i class="fa fa-twitter" alt="Twitter"></i></a>
-  <a href="https://www.linkedin.com/in/brennan-doehring-3675161b1/" target="_blank"><i class="fa fa-linkedin" alt="LinkedIn"></i></a>
-  <a href="https://www.facebook.com/brennan.doehring.50" target="_blank"><i class="fa fa-facebook" alt="Facebook"></i></a>
-  <p><button>Contact</button></p>
-</aside
