@@ -6,6 +6,14 @@ body {
     background-size: cover;
     -o-background-size: cover;
     font-family: 'Abel', sans-serif;
+    font-size: 25px;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
 }
 
 img {
@@ -28,11 +36,10 @@ img {
   padding: 10px;
 }
 
-/*Adds padding to portfolio image*/
-col-sm-4 {
-  padding-bottom: 15px;
+.portfolio {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-
 
 /*Bio image on index.html*/
 .bioImage {
@@ -43,80 +50,15 @@ col-sm-4 {
   padding: 0 10px 0 0;
 }
 
-/*Business card on contact page*/
-.businessCard {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
-    margin: auto;
-    text-align: center;
-    background-color: white;
-    float: left;
-    bottom: -50px; /*-120*/
 
-  }
-  
-  .title {
-    color: grey;
-    font-size: 18px;
-  }
-  
-  button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: auto;
-    font-size: 18px;
-  }
-  
-  a {
-    text-decoration: none;
-    font-size: 22px;
-    color: black;
-  }
-  
-  button:hover, a:hover {
-    opacity: 0.7;
-  }
-
-  * {
-    box-sizing: border-box;
-    
-
-  }
-  
-  /*Style inputs*/
-  input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-  
-  input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
-  
   /*Style the container/contact section*/
   .container {
     border-radius: 5px;
     background-color: #f2f2f2;
-    padding: 10px;
-
+    padding: 1px;
+    width: 80%;
+    text-align: center;
+    opacity: 0.95;
   }
   
   /*Create two columns that float next to eachother*/
@@ -140,4 +82,10 @@ col-sm-4 {
       width: 100%;
       margin-top: 0;
     }
+  }
+
+  .page-footer {
+    margin-top: 10px;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(90,4,101,1) 0%, rgba(16,0,255,1) 58%, rgba(10,187,194,1) 84%);
   }
