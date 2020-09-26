@@ -5,3 +5,4 @@ This is my personal portfolio website to be viewed by prospective employers.
 https://brennandoehring.github.io/portfolio_bdd/
 
 ## Website Preview
+<img src = "/assets/images/portfolio.gif">
