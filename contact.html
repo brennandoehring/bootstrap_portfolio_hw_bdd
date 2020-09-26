@@ -21,47 +21,39 @@
             </ul>
         </nav>
 
-        <div class = "container">
-            <section class="card border-0 shadow my-5">
-                <section class="card-body p-5">
-                    <h1 class="font-weight-light" font-size:8vw>Contact Information</h1>
-                    <p class="lead">Here is where you can get into contact with me.</p>
-                    <div style="height: 10px"></div>
-                </section>
-            </section>
+        <div class="container">
+            <h1>Contact Me via Email!</h1>
         </div>
     </header>
     
     <main>
-        <row class = "aboutMe">
-            <div class="container flow-text">
-                <section class="card border-0 shadow my-5">
-                    <section class="card-body p-5">
-                        <p class="lead"></p>
-                        <div style="height: auto"></div>
-                        <div style="text-align:center">
-                            <h2>Contact Me</h2>
+        <div class="container contact">
+                <img src="https://q3p9g6n2.rocketcdn.me/wp-content/ml-loads/2015/12/email_ss_1920.png" height="200" width="300">
+                    <form class="col s12">
+                        <div class="row">
+                            <div class="input-field col s6">
+                            <input id="first_name" type="text" class="validate">
+                            <label for="first_name">First Name</label>
+                            </div>
+                            <div class="input-field col s6">
+                            <input id="last_name" type="text" class="validate">
+                            <label for="last_name">Last Name</label>
+                            </div>
                         </div>
                         <div class="row">
-                            <div class="column">
-                                <img src="https://cdn.pixabay.com/photo/2018/03/22/02/37/email-3249062_960_720.png" alt="Mail" style="width:75%">
+                            <div class="input-field col s12 inputArea">
+                            <input id="companyName" type="email" class="validate">
+                            <label for="company">Company Name</label>
                             </div>
-                            <div class="column">
-                                <form action="/action_page.php">
-                                    <label for="fname">Name</label>
-                                    <input type="text" id="fname" name="name" placeholder="Your name..">
-                                    <label for="lname">Email</label>
-                                    <input type="text" id="lname" name="email" placeholder="Your email..">
-                                    <label for="subject">Subject</label>
-                                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-                                    <input type="submit" value="Submit">
-                                </form>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12 inputArea">
+                            <input id="email" type="email" class="validate">
+                            <label for="email">Email</label>
                             </div>
-                            </div>
-                    </section>
-                </section>
-            </div>
-        </row>
+                        </div>
+                    </form>
+        </div>
     </main>
 
     <footer class="page-footer">
@@ -86,6 +78,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
     crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+    <script src="assets/script.js"></script>
 </body>
 </html>

@@ -63,6 +63,10 @@ h2 {
     text-align: center;
     opacity: 0.95;
   }
+
+  .contact {
+    margin-top: 20px;
+  }
   
   /*Create two columns that float next to eachother*/
   .column {
