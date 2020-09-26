@@ -20,6 +20,15 @@ img {
   padding: 10px;
 }
 
+h1 {
+  font-size: 6vw;
+}
+
+h2 {
+  text-decoration: underline;
+  font-size: 4vw;
+}
+
 @viewport {
   width: device-width;
   zoom: 1.0;
@@ -41,22 +50,12 @@ img {
   margin-bottom: 10px;
 }
 
-/*Bio image on index.html*/
-.bioImage {
-  width: 200px;
-  height: 200px;
-  float: left;
-  border-radius: 50%;
-  padding: 0 10px 0 0;
-}
-
-
   /*Style the container/contact section*/
   .container {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 1px;
-    width: 80%;
+    width: 90%;
     text-align: center;
     opacity: 0.95;
   }
