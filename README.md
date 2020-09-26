@@ -1,5 +1,5 @@
 ## Portfolio
-This is my personal portfolio page. It features projects I have worked on solo or with a group. 
+This is my personal portfolio website to be viewed by prospective employers.
 
 ## Link to deployed website
 https://brennandoehring.github.io/portfolio_bdd/
