@@ -1,4 +1,3 @@
-// Event handlers for portfolio project button links
 $("#covid19Repo").click(function() {
     window.open("https://github.com/troylochner/covid19-info");
 });
