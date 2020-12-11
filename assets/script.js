@@ -6,6 +6,6 @@ $("#weatherRepo").click(function() {
     window.open("https://github.com/brennandoehring/weather-dashboard-bdd");
 })
 
-$("#workdayRepo").click(function() {
-    window.open("https://github.com/brennandoehring/workday-scheduler-bdd");
+$("#notetakerRepo").click(function() {
+    window.open("https://github.com/brennandoehring/notetaker");
 })
