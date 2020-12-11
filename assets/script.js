@@ -3,9 +3,9 @@ $("#covid19Repo").click(function() {
 });
 
 $("#weatherRepo").click(function() {
-    window.open("https://github.com/brennandoehring/weather-dashboard-bdd");
+    window.open("https://brennandoehring.github.io/weather-dashboard-bdd/");
 })
 
 $("#notetakerRepo").click(function() {
-    window.open("https://github.com/brennandoehring/notetaker");
+    window.open("https://expressnotetakerbdd.herokuapp.com/");
 })
